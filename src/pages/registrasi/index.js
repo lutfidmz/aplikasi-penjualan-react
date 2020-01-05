@@ -121,7 +121,7 @@ function Registrasi(){
     if(user){
         return <Redirect to="/" />
     }
-    console.log(user)
+    // console.log(user)
     return <Container maxWidth="xs" >        
         <Paper className={classes.paper}>
             <Typography
